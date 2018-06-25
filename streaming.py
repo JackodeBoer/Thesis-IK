@@ -7,13 +7,13 @@ import time
 import datetime
 import csv
 
-tweets_file = open('23-06-2018.csv','w')
+#tweets_file = open('23-06-2018.csv','w')
 
 #consumer key, consumer secret, access token, access secret.
-ckey="pOMNpj3Xx4XvE3R05PsaCQvGC"
-csecret="Us8BJVVOwZBCUzsS2CcucWKrlTWXBe1DyiH5JUq7arZUkxKGlX"
-atoken="1007179644825726976-MAheIsNgl1BD8KHMipFIwKDwVMEkqm"
-asecret="UC1TGjitkxcdctIZiWPzv3gmAaDWiwU3ow9VBX3ScOrSi"
+ckey="XXXXXXXXXXX"
+csecret="XXXXXXXXXXX"
+atoken="XXXXXXXXXXX"
+asecret="XXXXXXXXXXX"
 
 auth = tweepy.OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
